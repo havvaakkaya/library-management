@@ -6,7 +6,6 @@ The main goal is to solve the problem of tracking book availability, borrowing a
 
 Instead of isolated systems, this platform allows users to search for books, see which libraries have them, borrow them, and leave verified reviews.
 
----
 
 ## The Problem
 
@@ -16,9 +15,6 @@ In real-world library systems, data is often fragmented.
 - Borrowing records are stored separately across branches  
 - Review systems are unreliable because anyone can leave feedback  
 
-This leads to inefficiency, poor user experience, and lack of trustworthy information.
-
----
 
 ## The Solution
 
@@ -30,9 +26,6 @@ With this system, users can:
 - Borrow books from specific library branches  
 - Leave reviews only if they have previously borrowed the book  
 
-This ensures both usability and data reliability.
-
----
 
 ## Database Structure
 
@@ -45,7 +38,6 @@ The project is built around 6 core tables:
 - **Loans** → Records borrowing transactions
 - **Reviews** → Stores user reviews and ratings for books
 
----
 
 ## Key Relationships
 
@@ -55,7 +47,6 @@ The project is built around 6 core tables:
 - A user can write reviews for books they have borrowed  
 - A book can have multiple reviews  
 
----
 
 ## Key Features
 
@@ -68,10 +59,6 @@ The project is built around 6 core tables:
 - **Verified Review System**  
   Only users who borrowed a book can review it.
 
-- **User Activity Tracking**  
-  Each completed loan increases user points.
-
----
 
 ## SQL Techniques Used
 
